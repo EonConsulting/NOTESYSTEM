@@ -42,6 +42,12 @@ class HomeController extends Controller
             'recentlyUpdatedPages' => $recentlyUpdatedPages,
             'draftPages' => $draftPages
         ]);
+
+        //echo phpstencil()->output();
+        //echo PHPStencil::output(); 
+
+
+
     }
 
     /**

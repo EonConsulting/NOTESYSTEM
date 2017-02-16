@@ -140,6 +140,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Notifications\NotificationServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
+        EONConsulting\PHPStencil\PHPStencilServiceProvider::class,
+
 
         /**
          * Third Party
@@ -162,6 +164,7 @@ return [
         BookStack\Providers\EventServiceProvider::class,
         BookStack\Providers\RouteServiceProvider::class,
         BookStack\Providers\CustomFacadeProvider::class,
+
 
     ],
 
@@ -212,6 +215,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'PHPStencil' => \EONConsulting\PHPStencil\src\Facades\PHPStencil::class,
+
 
         /**
          * Third Party

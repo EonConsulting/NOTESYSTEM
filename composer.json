@@ -29,8 +29,15 @@
         "classmap": [
             "database"
         ],
+
+    "files": [
+         "Packages/PHPStencil/src/Http/helpers.php"
+        ],
+
         "psr-4": {
-            "BookStack\\": "app/"
+            "BookStack\\": "app/",
+            "EONConsulting\\PHPStencil\\": "Packages/PHPStencil/src",
+            "Tsugi\\": "Packages/PHPStencil/include/tsugi"
         }
     },
     "autoload-dev": {
