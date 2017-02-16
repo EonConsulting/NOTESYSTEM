@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+/public/dist
+.idea
+/public/plugins
+/public/css/*.map
+/public/js/*.map
+/public/bower
+/storage/images
+_ide_helper.php
+/storage/debugbar
+.phpstorm.meta.php
+yarn.lock
+/bin
