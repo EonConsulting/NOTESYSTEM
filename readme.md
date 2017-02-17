@@ -7,7 +7,6 @@ A platform for storing and organising information and documentation.
 * [Demo Instance](https://demo.bookstackapp.com)
   * *Username: `admin@example.com`*
   * *Password: `password`*
-* [BookStack Blog](https://www.bookstackapp.com/blog)
 
 ## Development & Testing
 
